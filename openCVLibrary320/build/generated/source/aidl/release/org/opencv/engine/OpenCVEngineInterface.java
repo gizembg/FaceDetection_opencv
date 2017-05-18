@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /home/gizem/AndroidStudioProjects/YBU/OpenCV_PROJECTS/Detection_opencv/openCVLibrary320/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
+ * Original file: /home/gizem/AndroidStudioProjects/YBU/OpenCV_PROJECTS/Detection_opencv(ESKİ)/openCVLibrary320/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
  */
 package org.opencv.engine;
 /**
