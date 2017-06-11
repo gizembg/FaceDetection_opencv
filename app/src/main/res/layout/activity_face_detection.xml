@@ -6,52 +6,90 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/fd_activity_surface_view" />
-<ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/imageview"/>
-    <Button
-        android:visibility="gone"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:onClick="onRecreateClick"
-        android:text="Recreate" />
+        android:id="@+id/imageview"/>
 
 
-    <TextView
-        android:visibility="gone"
-        android:id="@+id/method"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/seekbars"
-        android:layout_alignParentLeft="true"
-        android:layout_margin="5dp"
-        android:text="method"
-        android:textColor="@android:color/white"
-        android:textSize="10sp" />
+    <ImageButton
+        android:id="@+id/ichange"
+        android:layout_width="80dip"
+        android:layout_height="50dip"
+        android:background="@drawable/five"
+        android:onClick="onClick"/>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="80dip"
+                android:layout_height="50dip"
+                android:background="@drawable/one"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="80dip"
+                android:layout_height="50dip"
+                android:background="@drawable/two"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/button3"
+                android:layout_width="80dip"
+                android:layout_height="50dip"
+                android:background="@drawable/three"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="80dip"
+                android:layout_height="50dip"
+                android:background="@drawable/four"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/button5"
+                android:layout_width="80dip"
+                android:layout_height="50dip"
+                android:background="@drawable/five"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/button6"
+                android:layout_width="80dip"
+                android:layout_height="50dip"
+                android:background="@drawable/six"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/button7"
+                android:layout_width="80dip"
+                android:layout_height="50dip"
+                android:background="@drawable/seven"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/button8"
+                android:layout_width="80dip"
+                android:layout_height="50dip"
+                android:background="@drawable/eight"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/button9"
+                android:layout_width="80dip"
+                android:layout_height="50dip"
+                android:background="@drawable/nine"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/button10"
+                android:layout_width="80dip"
+                android:layout_height="50dip"
+                android:background="@drawable/ten"
+                android:onClick="onClick"/>
 
 
-    <LinearLayout
-        android:visibility="gone"
-        android:id="@+id/seekbars"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:orientation="horizontal"
-        >
 
-        <SeekBar
-            android:id="@+id/methodSeekBar"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:max="5"
-            android:paddingLeft="5dip"
-            android:paddingRight="10dip"
-            android:progress="500"
-            >
-        </SeekBar>
-
-    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
